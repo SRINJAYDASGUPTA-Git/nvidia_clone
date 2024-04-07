@@ -12,27 +12,29 @@ const Navbar = () => {
           <IoIosMenu size={27} />
           <GoSearch size={20} />
         </div>
-        <div className="flex items-center gap-3"> 
+        <div className="flex items-center gap-3">
           <Image src="/images/NVIDIA.svg" alt="logo" width={120} height={0} />
           <ul className="gap-4 px-2 hidden md:flex">
-                {
-                    navLinks.map( (link) => (
-                        <li key={link.path} className="hover:underline cursor-pointer">{link.title}</li>
-                    ))
-                }
-            </ul>
+            {navLinks.map((link) => (
+              <li key={link.path} className="hover:underline cursor-pointer">
+                {link.title}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="flex gap-3 place-items-center">
-            <ul className="flex items-center gap-3 mr-4">
-            {
-                navLinks2.map((link)=>(
-                    <li key={link.path} className="hover:underline cursor-pointer hidden md:block">{link.title}</li>
-                ))
-            }
-            </ul>
-            
-        <GoSearch size={25} className="hidden md:block"/>    
-        <LuUserCircle size={27} />
+          <ul className="flex items-center gap-3 mr-4">
+            {navLinks2.map((link) => (
+              <li
+                key={link.path}
+                className="hover:underline cursor-pointer hidden md:block"
+              >
+                {link.title}
+              </li>
+            ))}
+          </ul>
+          <GoSearch size={25} className="hidden md:block" />
+          <LuUserCircle size={27} />
         </div>
       </div>
     </nav>
