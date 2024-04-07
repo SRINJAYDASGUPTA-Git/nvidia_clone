@@ -12,8 +12,7 @@ const Navbar = () => {
           <IoIosMenu size={27} />
           <GoSearch size={20} />
         </div>
-        <div className="flex items-center gap-3">
-            
+        <div className="flex items-center gap-3"> 
           <Image src="/images/NVIDIA.svg" alt="logo" width={120} height={0} />
           <ul className="gap-4 px-2 hidden md:flex">
                 {
