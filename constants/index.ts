@@ -1,5 +1,3 @@
-import { title } from "process"
-
 export const navLinks = [
     {
         title:'Products',
@@ -62,5 +60,30 @@ export const shopCard = [
         img:'/images/builtForTheBold.jpg',
         title:'Built for the Bold',
         description:'Accelerate your creativity with NVIDIA Studio laptops.',
+    },
+]
+export const gamesCard = [
+    {
+        img:'/images/battlefield-2042.jpg',
+        title:'Own The Battlefield',
+        description:'Buy Select GeForce RTX Laptops and Desktops, Get Battlefield 2042.',
+    },
+
+    {
+        img:'/images/Dying_Light_2.jpg',
+        title:'RTX. It\'s ON',
+        description:'Ray Tracing and NVIDIA DLSS coming soon',
+    },
+
+    {
+        img:'/images/GFN.jpg',
+        title:'RTX. It\'s ON',
+        description:'Ray Tracing and NVIDIA DLSS coming soon',
+    },
+
+    {
+        img:'/images/nvidia-reflex.jpg',
+        title:'NVIDIA Reflex',
+        description:'Low Latency Competitive Gaming Technology',
     },
 ]
